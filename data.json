@@ -2,37 +2,37 @@
   "features": [
     {
       "id": 1,
-      "icon": "/assets/icon-01.svg",
+      "icon": "/react-portfolio/images/icon-01.svg",
       "name": "Crafted for SaaS",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor."
     },
     {
       "id": 2,
-      "icon": "/assets/icon-02.svg",
+      "icon": "/react-portfolio/images/icon-02.svg",
       "name": "High-quality Design",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor."
     },
     {
       "id": 3,
-      "icon": "/assets/icon-03.svg",
+      "icon": "/react-portfolio/images/icon-03.svg",
       "name": "All Essential Sections",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor."
     },
     {
       "id": 4,
-      "icon": "/assets/icon-04.svg",
+      "icon": "/react-portfolio/images/icon-04.svg",
       "name": "Speed Optimized",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor."
     },
     {
       "id": 5,
-      "icon": "/assets/icon-05.svg",
+      "icon": "/react-portfolio/images/icon-05.svg",
       "name": "Fully Customizable",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor."
     },
     {
       "id": 6,
-      "icon": "/assets/icon-06.svg",
+      "icon": "/react-portfolio/images/icon-06.svg",
       "name": "Regular Updates",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor."
     }
@@ -84,19 +84,19 @@
       "id": 1,
       "title": "Free advertising for your online business",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
-      "image": "/assets/blog-01.png"
+      "image": "/react-portfolio/images/blog-01.png"
     },
     {
       "id": 2,
       "title": "9 simple ways to improve your design skills",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
-      "image": "/assets/blog-02.png"
+      "image": "/react-portfolio/images/blog-02.png"
     },
     {
       "id": 3,
       "title": "Tips to quickly improve your coding speed",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
-      "image": "/assets/blog-03.png"
+      "image": "/react-portfolio/images/blog-03.png"
     }
   ]
 }
