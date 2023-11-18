@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Rubik", sans-serif;
+    scroll-behavior: smooth;
+  }
+  /* Global */
+  button {
+    @apply cursor-pointer;
+  }
+  section {
+    @apply pt-20 pb-10;
+  }
+  ::selection {
+    @apply text-white bg-blue-400;
+  }
+  img {
+    @apply block max-w-full object-cover object-center;
+    -webkit-user-drag: none;
+    user-select: none;
+  }
+  /* Header */
+  .nav-link {
+    @apply text-slate-500 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-600 block max-lg:px-6 max-lg:py-4;
+  }
+  .btn-interface {
+    @apply text-slate-500 transition-colors hover:text-blue-500 dark:hover:text-blue-500;
+  }
+}
+
+@layer components {
+  /* Section Header */
+  .section-heading {
+    @apply text-center px-4;
+  }
+  .section-subtitle {
+    @apply uppercase text-sm tracking-tight px-3 py-2 rounded-full bg-slate-200 dark:bg-slate-800 dark:text-white dark:border dark:border-slate-700;
+  }
+  .section-title {
+    @apply mt-4 max-w-2xl text-2xl mx-auto font-semibold capitalize dark:text-white;
+  }
+  .section-info {
+    @apply mt-3 max-w-xl mx-auto text-slate-500;
+  }
+
+  /* Feature Item */
+  .feature {
+    @apply bg-white dark:bg-slate-800 border dark:border-slate-700 px-5 py-6 rounded-lg transition-all hover:shadow-sm hover:bg-slate-100 hover:dark:bg-slate-700;
+  }
+  .feature-icon {
+    @apply bg-blue-600 p-2 rounded-lg;
+  }
+  .feature-name {
+    @apply text-xl dark:text-white font-medium mt-4 mb-4;
+  }
+  .feature-info {
+    @apply dark:text-slate-400;
+  }
+  /* Pricing Plan Item */
+  .pricing-plan {
+    @apply bg-slate-50 dark:bg-slate-800 border dark:border-slate-700 py-5 px-6 rounded-lg flex flex-col relative;
+    max-width: 24rem;
+  }
+  .pricing-plan-popular {
+    @apply absolute bg-blue-500 text-white text-xs uppercase top-0 right-4 px-1 py-2 rotate-180 rounded-tl-full rounded-tr-full;
+    writing-mode: vertical-lr;
+  }
+  .pricing-plan-price {
+    @apply text-3xl font-semibold text-black dark:text-white;
+  }
+  .pricing-plan-period {
+    @apply text-slate-600 font-medium dark:text-slate-400;
+  }
+  .pricing-plan-name {
+    @apply mt-4 text-xl text-black dark:text-white;
+  }
+  .pricing-plan-description {
+    @apply mt-4 text-slate-600 dark:text-slate-400;
+  }
+  .pricing-plan-list {
+    @apply text-slate-600 dark:text-slate-400 grid gap-2 border-t border-b mt-6 py-6 border-slate-300 dark:border-slate-600 flex-1;
+  }
+  .pricing-plan-link {
+    @apply mt-4 flex items-center gap-2 dark:text-white transition-colors hover:text-blue-500 dark:hover:text-blue-500;
+  }
+  /* News Blog Item */
+  .news-blog {
+    @apply bg-white shadow-md dark:bg-slate-800 px-3 py-4 rounded-lg max-md:flex max-md:items-center max-md:gap-4;
+  }
+  .news-blog-image {
+    @apply rounded-lg border dark:border-slate-700 w-full max-md:w-52;
+  }
+  .news-blog-content {
+    @apply md:pt-4 px-2;
+  }
+  .news-blog-title {
+    @apply text-xl dark:text-white;
+  }
+  .news-blog-description {
+    @apply mt-4 text-slate-400;
+  }
+}
